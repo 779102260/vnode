@@ -1,0 +1,6 @@
+{
+    "hooks": {
+        "pre-commit": "lint-staged",
+        "pre-push": "npx branch-name-lint [lintbranch.json]"
+    }
+}

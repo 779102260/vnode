@@ -1,0 +1,8 @@
+{
+  "branchNameLinter": {
+    "regex": "^(feature|hotfix|release)\\/v(\\d+)\\.(\\d+)\\.(\\d+)",
+    "disallowed": ["master", "develop", "dev"],
+    "msgBranchDisallowed": "Pushing to \"%s\" is not allowed, use git-flow.",
+    "msgDoesNotMatchRegex": "Branch \"%s\" must contain certain characters \"%s\"."
+  }
+}
